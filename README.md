@@ -12,4 +12,4 @@
 
 -Supporting sustainable art and technology projects with zero energy public spaces. 
 
-### this site is under construction please email Amelia Winger-Bearskin (studioamelia@gmail.com) for information and press inquiries.
+### this site is under construction please email [Amelia Winger-Bearskin](studioamelia@gmail.com) for information and press inquiries.
