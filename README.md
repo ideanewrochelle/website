@@ -1,4 +1,4 @@
-## Welcome I.D.E.A. New Rochelle, the Interactive Digital Environments Alliance of New Rochelle, NY
+## Welcome to I.D.E.A.- the Interactive Digital Environments Alliance of New Rochelle, NY
 
 ### Core Values:
 
