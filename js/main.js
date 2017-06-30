@@ -166,14 +166,14 @@ TABLE OF CONTENTS
 			
 			//-- 3.1 activate word rotator plugin
 			$("#wordrotator").wordsrotator({
-    			autoLoop: true,                  										//-- auto rotate words
+    			autoLoop: false,                  										//-- auto rotate words
     			randomize: false,                										//-- show random entries from the words array
     			stopOnHover: false,              										//-- stop animation on hover
     			changeOnClick: false,            										//-- force animation run on click
     			animationIn: "fadeInDown",          									//-- css class for entrace animation
     			animationOut: "fadeOutUp",        										//-- css class for exit animation
     			speed: 3000,               		 										//-- delay in milliseconds between two words
-    			words: ['we are<br><span class="highlight">creative agency</span>', 'we create<br><span class="highlight">awesome product</span>']  	//-- Array of words, it may contain HTML values
+    			words: ['The<br><span class="highlight">Spectral Event</span>', 'we create<br><span class="highlight">awesome product</span>']  	//-- Array of words, it may contain HTML values
 			});
 			
 			clearTimeout(this);
@@ -367,8 +367,8 @@ TABLE OF CONTENTS
 			}
 			else{
 				$(".bg-container-youtube").backstretch([
-					"http://placehold.it/2560x1600",
-					"http://placehold.it/2560x1600"
+					"img/bg.jpg",
+					"img/bg.jpg"
 				],{
 					duration:6000,
 					fade:'normal'
@@ -379,7 +379,7 @@ TABLE OF CONTENTS
 		//-- 5.11 set background for star-effect
 		if($(".bg-star-effect").is(':visible')){
 			$(".bg-star-effect").backstretch([
-				"http://placehold.it/2560x1600"
+				"img/bg.jpg"
 			],{
 				duration:6000,
 				fade:'normal'

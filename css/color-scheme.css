@@ -1,4 +1,4 @@
-/*-- ========================================= --
+bg canvas/*-- ========================================= --
 	 COLOR SCHEME FOR BUTTON AND LINKS
 /*-- ========================================= --*/
 .link-nextpage-top,
@@ -8,28 +8,28 @@
 .link-nextpage-top::after,
 .link-nextpage-bottom::after
 {
-	color:#151515;
+	color:#e09696;
 }
 .highlight,
 .link-uppercase,
 .button-regular::after
 {
-	color:#f7001f; 
+	color:#e09696; 
 }
 .link-uppercase::before{
-	background:#f7001f;
+	background:#e09696;
 }
 .button-regular{
 	color:white;
-	background:#f7001f;
-	border:2px solid #f7001f;
+	background:#e09696;
+	border:2px solid #e09696;
 }
 
 /*-- ========================================= --
 	 COLOR SCHEME FOR SECTION NAVIGATION
 /*-- ========================================= --*/
 nav a .arrow-label{
-	background:#f7001f;
+	background:#e09696;
 	color:white;
 }
 
@@ -37,11 +37,11 @@ nav a .arrow-label{
 	 COLOR SCHEME FOR COUNTDOWN
 /*-- ========================================= --*/
 .countdown-container .dash{
-	border:2px solid #f7001f;
-	background:#f7001f;
+	border:2px solid #e09696;
+	background:#e09696;
 }
 .countdown-container .dash::after{
-	background:#f7001f;
+	background:#e09696;
 }
 .countdown-container .digit{
 	color:white;
@@ -59,7 +59,7 @@ nav a .arrow-label{
 .service-container .service .icon-container,
 .contact-container .contact .icon-container
 {
-	border:2px solid #f7001f;
+	border:2px solid #e09696;
 }
 .service-container .service:hover .icon-container,
 .contact-container .contact:hover .icon-container
@@ -72,13 +72,13 @@ nav a .arrow-label{
 .contact-container .contact .icon-container::after,
 .social-media-container a:hover::after
 {
-	background:#f7001f;
+	background:#e09696;
 }
 .service-container .service:hover .icon-container .icon,
 .contact-container .contact:hover .icon-container .icon,
 .contact-container .contact:hover .text-container .title
 {
-	color:#f7001f;
+	color:#e09696;
 }
 
 /*-- ========================================= --

@@ -24,12 +24,12 @@ if (!window.requestAnimationFrame) {
 			context = canvas.getContext('2d'),
 			defaults = {
 				star: {
-					color: 'rgba(38, 38, 38, .7)',
+					color: 'rgba(232, 180, 198, .7)',
 					width: 1
 				},
 				line: {
-					color: 'rgba(38, 38, 38, .7)',
-					width: 0.2
+					color: 'rgba(255, 255, 255, .7)',
+					width: 0.8
 				},
 				position: {
 					x: 0, // This value will be overwritten at startup
