@@ -34,7 +34,7 @@ a:hover,
 a:focus,
 a:active,
 a.active {
-  color: #fec503;
+  color: #EA8Cb3;
 }
 h1,
 h2,
@@ -70,7 +70,7 @@ h6 {
 .open .dropdown-toggle.btn-primary {
   color: white;
   background-color: #fec503;
-  border-color: #f6bf01;
+  border-color: #fec503;
 }
 .btn-primary:active,
 .btn-primary.active,
@@ -117,7 +117,7 @@ fieldset[disabled] .btn-primary.active {
 .open .dropdown-toggle.btn-xl {
   color: white;
   background-color: #fec503;
-  border-color: #f6bf01;
+  border-color: #fec503;
 }
 .btn-xl:active,
 .btn-xl.active,
