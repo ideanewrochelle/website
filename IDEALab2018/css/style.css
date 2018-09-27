@@ -1,0 +1,42 @@
+.container {
+    padding-bottom: 50px;
+}
+
+.header {
+    margin-bottom: 30px;
+}
+
+.bold-underline {
+    font-weight: bold;
+    text-decoration: underline;
+}
+
+.cohort {
+    padding-bottom: 30px;
+}
+
+.cohort::after {
+    content: "";
+    clear: left;
+}
+
+.cohort-img {
+    float: left;
+    max-width: 300px;
+    padding: 10px;
+}
+    
+@media (max-width: 768px) {
+    .cohort-img {
+        min-width: 100%;
+        text-align: center;
+    }
+}
+
+h4 {
+    text-transform: uppercase;
+}
+
+.footer-image {
+    margin-bottom: 30px;
+}

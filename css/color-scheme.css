@@ -1,0 +1,89 @@
+bg canvas/*-- ========================================= --
+	 COLOR SCHEME FOR BUTTON AND LINKS
+/*-- ========================================= --*/
+.link-nextpage-top,
+.link-nextpage-bottom,
+.link-nextpage-top::before,
+.link-nextpage-bottom::before,
+.link-nextpage-top::after,
+.link-nextpage-bottom::after
+{
+	color:#e09696;
+}
+.highlight,
+.link-uppercase,
+.button-regular::after
+{
+	color:#e09696; 
+}
+.link-uppercase::before{
+	background:#e09696;
+}
+.button-regular{
+	color:white;
+	background:#e09696;
+	border:2px solid #e09696;
+}
+
+/*-- ========================================= --
+	 COLOR SCHEME FOR SECTION NAVIGATION
+/*-- ========================================= --*/
+nav a .arrow-label{
+	background:#e09696;
+	color:white;
+}
+
+/*-- ========================================= --
+	 COLOR SCHEME FOR COUNTDOWN
+/*-- ========================================= --*/
+.countdown-container .dash{
+	border:2px solid #e09696;
+	background:#e09696;
+}
+.countdown-container .dash::after{
+	background:#e09696;
+}
+.countdown-container .digit{
+	color:white;
+}
+
+
+/*-- ========================================= --
+	 COLOR SCHEME FOR SERVICES & CONTACT
+/*-- ========================================= --*/
+.service-container .service .icon-container .icon,
+.contact-container .contact .icon-container .icon
+{
+	color:white;
+}
+.service-container .service .icon-container,
+.contact-container .contact .icon-container
+{
+	border:2px solid #e09696;
+}
+.service-container .service:hover .icon-container,
+.contact-container .contact:hover .icon-container
+{
+	background:none;
+}
+.service-container .service .icon-container,
+.contact-container .contact .icon-container,
+.service-container .service .icon-container::after,
+.contact-container .contact .icon-container::after,
+.social-media-container a:hover::after
+{
+	background:#e09696;
+}
+.service-container .service:hover .icon-container .icon,
+.contact-container .contact:hover .icon-container .icon,
+.contact-container .contact:hover .text-container .title
+{
+	color:#e09696;
+}
+
+/*-- ========================================= --
+	 COLOR SCHEME FOR WORKS
+/*-- ========================================= --*/
+.works-container .work .img-container .text-container{
+	background:rgba(247,0,31,0.8);
+}

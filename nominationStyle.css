@@ -1,0 +1,107 @@
+body {
+    color: white;
+    font-size: 2em;
+    color: white;
+    background: #ddd6f3;
+    /* fallback for old browsers */
+    background: -webkit-linear-gradient(to right, #faaca8, #ddd6f3);
+    /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #faaca8, #ddd6f3);
+    /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+    padding-top: 5px;
+}
+
+.footer {
+    color: white;
+    font-size: .5em;
+    color: white;
+    margin-top: 40%;
+    margin-left: 30%;
+}
+
+
+#background {
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    background: url(polina.jpg) no-repeat;
+    background-size: cover;
+}
+
+h1,
+h2,
+h3,
+h4 {
+    position: relative;
+    font-family: 'Josefin Sans', sans-serif;
+    font-weight: 700;
+    margin: 0px;
+    text-align: center;
+    color: white;
+}
+
+h1 {
+    font-size: 70px;
+    text-transform: uppercase;
+    line-height: 90px;
+    letter-spacing: 7px;
+    font-weight: 500;
+}
+
+h2 {
+    font-size: 55px;
+    text-transform: uppercase;
+    line-height: 70px;
+    letter-spacing: 5px;
+    font-weight: 500;
+}
+
+h3 {
+    font-size: 14px;
+    text-transform: uppercase;
+    line-height: 24px;
+    letter-spacing: 2px;
+}
+
+h4 {
+    font-size: 14px;
+    line-height: 24px;
+    letter-spacing: 2px;
+    color: grey;
+}
+
+p {
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
+    font-size: 14px;
+    margin-left: 20%;
+    line-height: 28px;
+    letter-spacing: normal;
+    color: white;
+}
+
+a {
+    color: purple;
+}
+
+.button {
+    font-family: 'Josefin Sans', sans-serif;
+    background-color: pink;
+    /* blue */
+    border: none;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 18px;
+    margin-left: 20%;
+    margin-top: 5%;
+}
